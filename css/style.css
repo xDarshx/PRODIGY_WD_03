@@ -1,0 +1,181 @@
+body {
+    font-family: "Montserrat", sans-serif;;
+    background-color: #f0efeb; /* Light grayish */
+    color: #2b2d42; /* Dark blueish */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+        /* Basic dimensions and centering */
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        /* Dark mode colors and gradient */
+        background: #121212; /* Fallback for browsers that don't support gradients */
+        background: linear-gradient(
+          135deg,
+          #121212 25%,
+          #1a1a1a 25%,
+          #1a1a1a 50%,
+          #121212 50%,
+          #121212 75%,
+          #1a1a1a 75%,
+          #1a1a1a
+        );
+        background-size: 40px 40px;
+      
+        /* Animation */
+        animation: move 4s linear infinite;
+      }
+      
+      @keyframes move {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: 40px 40px;
+        }
+      }
+
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* From https://css.glass */
+background: rgba(34, 18, 2, 0.4);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(1.8px);
+border: 1px solid rgba(231, 88, 0, 0.51);
+padding: 85px 85px;
+transition: all 0.3s ease-in;
+}
+
+.cont:hover{
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px;
+
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #e07a5f; /* Light coral */
+    margin-bottom: 0.5rem;
+    margin-left:-22% ;
+    margin-top: 0%;
+}
+
+
+#title {
+    margin-top: -35%;
+    color: #e07a5f;
+
+}
+
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: -22%;
+}
+
+button {
+    height: 3rem;
+    width: 10rem;
+    background-color: transparent; /* Light grayish */
+    color: #fff; /* Dark blueish */
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    border: 2px solid #e07a5f; /* Light coral */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e07a5f; /* Light coral */
+    color: #f0efeb; /* Light grayish */
+    border-color: #e07a5f; /* Light coral */
+}
+
+.gamebox {
+    text-align: center;
+    margin-top: 7rem;
+    
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 5rem);
+    gap: 1rem;
+}
+.gamebtn button{
+margin-right: 3.5%;
+
+}
+
+.box {
+    height: 5rem;
+    width: 5rem;
+    font-size: 2rem;
+    background-color: transparent; /* Light grayish */
+    color: #ffffff; /* Dark blueish */
+    border: 2px solid #e07a5f; /* Light coral */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    margin-left: 66%;
+}
+
+.box:hover {
+    background-color: #e07a5f; /* Light coral */
+    color: #f0efeb; /* Light grayish */
+    border-color: #e07a5f; /* Light coral */
+}
+
+.winner {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #e07a5f; /* Light coral */
+}
+
+.gamebtn {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#restart, #newgame, #home {
+    height: 3rem;
+    width: 8rem;
+    background-color: transparent; 
+    color: #f0efeb; /* Light grayish */
+    font-size: 1rem;
+    font-weight: 300;
+    border: 1px solid #e07a5f;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#restart:hover, #newgame:hover, #home:hover {
+    background-color: #e07a5f; 
+    border: 1px solid #e07a5f;
+    color: #f0efeb; /* Light grayish */
+}
