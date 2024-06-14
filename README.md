@@ -1,29 +1,29 @@
-**Tic-Tac-Toe Game**
+# Tic-Tac-Toe Game
 
 This is a simple Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. It allows players to play against each other or against the computer.
 
-**Features**
+## Features
 
-**Player Modes:**
-Choose between playing against another player (Player vs Player) or against the computer (Player vs Computer).
+- **Player Modes:** Choose between playing against another player (Player vs Player) or against the computer (Player vs Computer).
+- **Interactive Gameplay:** Click on the grid to place 'X' or 'O' marks depending on the player's turn.
+- **Win Detection:** Automatically detects when a player has won or when the game ends in a draw.
+- **Restart and New Game:** Options to restart the current game or start a new game.
+- **Responsive Design:** Designed to be responsive and work well on various screen sizes.
 
-**Interactive Gameplay:** 
-Click on the grid to place 'X' or 'O' marks depending on the player's turn.
+## Technologies Used
 
-**Win Detection:** 
-Automatically detects when a player has won or when the game ends in a draw.
+- **HTML/CSS:** Structure and styling of the game interface.
+- **JavaScript:** Logic for game mechanics, including turn handling, win detection, and player moves.
 
-**Restart and New Game:** 
-Options to restart the current game or start a new game.
-**Responsive Design:** 
-Designed to be responsive and work well on various screen sizes.
+## Credits
 
-**Technologies Used**
-**HTML/CSS:** Structure and styling of the game interface.
-JavaScript: Logic for game mechanics, including turn handling, win detection, and player moves.
+- **Author:** Darsh Kunjithaya
+- **Date:** 15/06/2024
 
-**Credits**
+Feel free to reach out to me for collaborations or inquiries. Thank you for visiting my project!
 
-Author: Darsh Kunithaya
+## Contact
 
-Date: 15/06/2024
+- **Email:** [darshkunj04@gmail.com](mailto:darshkunj04@gmail.com)
+- **LinkedIn:** [Darsh Kunjithaya](https://www.linkedin.com/in/darsh-kunjithaya-17260022b)
+- **GitHub:** [xDarshx](https://github.com/xDarshx)
